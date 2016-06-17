@@ -1,0 +1,14 @@
+{
+  "clusterName" : "my-eg",
+  "taskName" : "my-task",
+  "imageName" : "my-eg/primes",
+  "bucketName" : "d31fb55c-092b-4670-9990-09ba60f435df",
+  "outputFilename" : "primes-output.txt",
+  "cpuPercentage" : 50,
+  "memoryUsage" : 128,
+  "runEnvironment" : {
+    "takeN" : 100,
+    "ignoreFirstN" : 100,
+    "takeEveryN" : 100
+  }
+}
